@@ -66,17 +66,26 @@ img{
   {
     width: 100%;
     background:white;
-    padding:10px 15px;
+    padding:2px 15px;
     color:rgb(123, 119, 119);
     font-family:  serif;
-    border:1px solid rgb(203, 198, 198);
+    border:0px solid rgb(203, 198, 198);
     border-radius: 5px;
     border-style: outset;
     -webkit-text-stroke: rgb(34, 33, 48) 1px;
+    font-size:30px;
    
   }
 
+  @media (max-width:400px)
+  {
+    b{
+
+      font-size: 25px;
   
+    }
+}
+
     
 @media screen and (max-width: 1600px) {
   #home-img

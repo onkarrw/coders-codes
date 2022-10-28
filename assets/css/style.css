@@ -89,19 +89,41 @@ main {
   padding-left: 1rem;
 }
 
-.caption {
-  padding: 2px 0 0 30px;
-  text-align: center;
-  color: black;
+
+.grid-container
+{
+  display: grid;
+  grid-template-columns: auto;
 
 }
 
-.caption a{
+
+@media (min-width: 450px) {
+  
+  
+  .grid-container
+  {
+    display: grid;
+    grid-template-columns: auto auto;
+  
+  }
+  }
+  
+
+
+.grid-item {
+  padding: 2px 0 0 30px;
+  text-align: left;
+  color: black;
+
+}
+.grid-item  a{
     color:black;
     text-decoration: none;
 }   
 
-.caption a:hover{
+.grid-item  a:hover{
+
     color:blue;
     
 }
